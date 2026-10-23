@@ -12,3 +12,5 @@ const pool = mysql.createPool({
 });
 
 console.log("pool de conexiones MySQL listo");
+
+export { pool };

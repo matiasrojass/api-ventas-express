@@ -1,7 +1,7 @@
-import { ROUTER } from 'express';
-import { POOL } from '../db.js';
+import { Router } from 'express';
+import { pool } from '../db.js';
 
-const router = ROUTER();
+const router = Router();
 
 
 router.get('/consolidado', async (req, res) => {
